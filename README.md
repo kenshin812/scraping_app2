@@ -16,4 +16,3 @@ Gemのインストール(Gemfileの変更後)
 ```bash
 bundle install
 ```
-#SCRAINGAPP
