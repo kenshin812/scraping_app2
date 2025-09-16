@@ -16,3 +16,15 @@ Gemのインストール(Gemfileの変更後)
 ```bash
 bundle install
 ```
+サーバーの起動(EC2サーバーのアプリケーションディレクトリ内で)
+```bash
+nohup rails s &
+```
+サーバーの停止
+```bash
+# 1. プロセスを探す
+ps aux | grep puma
+
+# 2. 表示されたPID（数字）を使ってプロセスを終了させる
+kill 12345  # 12345は表示されたPIDに置き換える
+```
