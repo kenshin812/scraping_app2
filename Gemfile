@@ -70,7 +70,7 @@ gem "dotenv-rails", group: [ :development, :test ]
 
 # Use sqlite3 as the database for Active Record in development/test
 group :development, :test do
-  gem "sqlite3", "~> 1.7"
+  gem "sqlite3", "~> 2.8"
 end
 
 # Use pg as the database for Active Record in production
